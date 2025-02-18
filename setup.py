@@ -53,7 +53,7 @@ setup(
 
     install_requires=[
         'pyOpenSSL >= 0.13',
-        'psutil'
+        'psutil < 7.0.0'
     ],
 
     entry_points="""
